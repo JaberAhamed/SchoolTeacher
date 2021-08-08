@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="120dip"
+        android:background="@drawable/shadow"
+        android:elevation="5dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_margin="2dp">
+
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="10">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Name:"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/student_name_extv"
+                    android:text=""
+                    android:textSize="16sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="2.5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="ID No:"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/student_roll_extv"
+                    android:text=""
+                    android:textSize="16sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="2.5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            >
+
+            <EditText
+
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorAccent"
+                android:id="@+id/studentObtainedMarks"
+                android:layout_width="match_parent"
+                android:hint="Obtained Marks"
+                android:textStyle="bold"
+                android:inputType="numberDecimal"
+                android:text=""
+                android:padding="5dp"
+                android:textSize="14sp"
+                android:layout_height="wrap_content" />
+            <EditText
+
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorAccent"
+                android:id="@+id/studentRemarks"
+                android:layout_width="match_parent"
+                android:hint="Remarks"
+                android:textStyle="bold"
+                android:inputType="textMultiLine"
+                android:text=""
+                android:padding="5dp"
+                android:textSize="14sp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/studentId_extv"
+        android:layout_width="0dip"
+        android:layout_height="0dip" />
+    <TextView
+        android:id="@+id/student_attend_status_extv"
+        android:layout_width="0dip"
+        android:layout_height="0dip" />
+
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="20dip"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:background="@drawable/shadow"
+
+        android:id="@+id/date_type_text"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:layout_margin="5dip"
+        android:padding="10dip"
+        android:text="Date of Birth"
+        android:layout_height="wrap_content" />
+    <DatePicker
+        android:background="@drawable/shadow"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:id="@+id/ac_date_picker"
+        android:layout_width="match_parent"
+        android:layout_margin="5dip"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner">
+
+    </DatePicker>
+
+    <Button
+        android:text="Set Date"
+        android:id="@+id/cancelContactButton"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/generalButtonTextColor"
+        />
+
+</LinearLayout>

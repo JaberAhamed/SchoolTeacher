@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/splashImage"
+            android:layout_marginTop="60dp"
+            android:layout_width="180dp"
+            android:layout_height="180dip"
+            android:layout_gravity="center"
+            android:contentDescription="Mess Management"
+            android:background="@drawable/logo_demo" />
+
+        <TextView
+            android:id="@+id/load_per"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:text="0%"
+            android:layout_marginTop="30dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_splash_no_internet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Internet"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"/>
+
+</LinearLayout>

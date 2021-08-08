@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">মডার্ণ টিচার</string>
+    <string name="application_title">মডার্ণ টিচার</string>
+
+    <string name="title_activity_main">মডার্ণ টিচার</string>
+    <string name="navigation_drawer_open">নেভিগেশন খুলুন</string>
+    <string name="navigation_drawer_close"> নেভিগেশন বন্ধ করুন</string>
+    <string name="nav_header_title">মডার্ণ প্রি-ক্যাডেট স্কুল</string>
+    <string name="nav_header_subtitle">example@Modern.com</string>
+    <string name="nav_header_desc"> নেভিগেশন হেডার </string>
+    <string name="action_settings"> সেটিংস </string>
+    <string name="logout_text"> লগ আউট</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--User_Info-->
+    <string name="attendance_text"> উপস্থিতি</string>
+    <string name="create_new_post"> নোটিশ পোস্ট করুন</string>
+    <string name="members_text"> অভিভাবক</string>
+    <string name="all_notice_text"> নোটিশ দেখুন </string>
+    <string name="statistics_text"> পরিসংখ্যান</string>
+    <string name="exams_text"> পরীক্ষা</string>
+    <string name="footer_text"> নোটিশঃ ১৬ই ডিসেম্বর স্কুল বন্ধ থাকবে </string>
+
+
+    <string name="google_api_id">91e3b1467fe4a30ad2591f7d6f5d22123a732d13</string>
+
+
+
+</resources>

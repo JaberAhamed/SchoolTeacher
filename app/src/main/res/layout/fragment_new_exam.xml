@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.newExamFragment"
+
+    >
+
+    <Spinner
+        android:id="@+id/groupInfoExSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:background="@drawable/shadow_spinner"
+        android:padding="10dip" />
+
+    <Spinner
+        android:id="@+id/ExamTypeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:background="@drawable/shadow_spinner"
+        android:padding="10dip"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/edit_view_button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/view_marks_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shadow_primary"
+            android:padding="10dp"
+            android:text="@string/view_exam_marks"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+
+            />
+
+        <Button
+            android:id="@+id/edit_marks_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shadow_primary"
+            android:padding="10dp"
+            android:text="@string/edit_exam_marks"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/class_test_date_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="@drawable/shadow"
+        android:orientation="horizontal"
+        android:padding="10dip"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/class_test_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:hint="@string/exam_date_mm_dd_yyyy"
+            android:inputType="datetime"
+            android:minHeight="30dip"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/classTestDateImageIcon"
+            android:layout_width="40dip"
+            android:layout_height="30dip"
+            android:tint="@color/colorPrimary"
+            app:srcCompat="@drawable/ic_calenders" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/view_exam_marks_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dip"
+        android:background="@drawable/shadow"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="gone">
+
+        <ListView
+            android:id="@+id/student_marks_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            ></ListView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/edit_exam_marks_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="2dip"
+        android:background="@drawable/shadow"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shadow"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/total_marks"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/total_marks_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:padding="5dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/student_marks_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9"
+
+            >
+
+
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.1"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shadow_primary"
+
+                android:text="@string/submit"
+                android:textColor="@color/white"
+
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/noDataFoundLayoutID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_no_data_found" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/sorry_no_data_found"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressbarId"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"/>
+
+
+</LinearLayout>

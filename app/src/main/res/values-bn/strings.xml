@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">মডার্ণ টিচার</string>
+    <string name="application_title">মডার্ণ টিচার</string>
+
+    <string name="title_activity_main">মডার্ণ টিচার</string>
+    <string name="navigation_drawer_open">নেভিগেশন খুলুন</string>
+    <string name="navigation_drawer_close"> নেভিগেশন বন্ধ করুন</string>
+    <string name="nav_header_title">মডার্ণ প্রি-ক্যাডেট স্কুল</string>
+    <string name="nav_header_subtitle">example@Modern.com</string>
+    <string name="nav_header_desc"> নেভিগেশন হেডার </string>
+    <string name="action_settings"> ভাষা পরিবর্তন করুন </string>
+    <string name="logout_text"> লগ আউট</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--User_Info-->
+    <string name="attendance_text"> উপস্থিতি</string>
+    <string name="create_new_post"> নোটিশ পোস্ট করুন </string>
+    <string name="members_text"> অভিভাবক</string>
+    <string name="all_notice_text"> নোটিশ দেখুন </string>
+    <string name="statistics_text"> পরিসংখ্যান</string>
+    <string name="exams_text"> পরীক্ষা</string>
+    <string name="footer_text"> অটোমেটেড মনিটরিং সিস্টেম </string>
+    <string name="signIn">সাইন ইন</string>
+    <string name="userIdHint"> ইউজার আইডি</string>
+    <string name="changeLanguage"> ভাষা পরিবর্তন করুন</string>
+
+    <string name="PasswordHint"> পাসওয়ার্ড</string>
+    <string name="LoginText"> প্রবেশ করুন</string>
+    <string name="home"> হোম</string>
+
+    <string name="total_marks">মোট নাম্বার</string>
+    <string name="submit">জমা দিন</string>
+    <string name="name">নাম:</string>
+    <string name="roll"> রোল:</string>
+    <string name="obtained_marks">প্রাপ্ত নাম্বার</string>
+
+    <string name="view_exam_marks">পরীক্ষার নাম্বার দেখুন</string>
+    <string name="edit_exam_marks">পরীক্ষার নাম্বার ইনপুট দিন</string>
+
+    <string name="exam_date_mm_dd_yyyy">পরীক্ষার তারিখ: (দিন/মাস/বছর)</string>
+    <string name="successfully_updated">সফলভাবে আপডেট হয়েছে!!</string>
+    <string name="attendance">উপস্থিতি</string>
+    <string name="yyy">দিন/মাস/বছর</string>
+    <string name="_class">শ্রেণী: </string>
+    <string name="_sec">সেকশন: </string>
+    <string name="_shift">শিফট: </string>
+    <string name="you_can_not">আপনি গত ২ দিন  আগের উপস্থিতি পরিবর্তন করতে পারবেন না।</string>
+    <string name="attendance_date">উপস্থিতি তারিখ</string>
+    <string name="loading">লোডিং</string>
+    <string name="please_wait">অনুগ্রহ করে অপেক্ষা করুন</string>
+    <string name="something_went">কিছু ভুল হয়েছে ..বার্তা পাঠানো হয়নি</string>
+    <string name="no_internet">ইন্টারনেট সংযোগ নেই</string>
+
+    <string name="please_enter_uid">অনুগ্রহ করে আপনার ইউজার আইডি দিন</string>
+    <string name="please_enter_pass">অনুগ্রহ করে আপনার পাসওয়ার্ড দিন</string>
+    <string name="successfully_updated_att">উপস্থিতি সঠিকভাবে আপডেট করা হয়েছে</string>
+    <string name="no_list">কোন লিস্ট পাওয়া যায় নি</string>
+    <string name="please_input">অনুগ্রহ করে জমা দেয়ার আগে পূর্ণমান দিন </string>
+    <string name="notices_">নোটিশ</string>
+    <string name="notice_details">বিস্তারিত নোটিশ </string>
+    <string name="create_notice">নোটিশ লিখুন </string>
+    <string name="please_notice">নোটিশ পোস্টের তারিখ দিন</string>
+    <string name="succ_post">সফলভাবে পোস্ট করা হয়েছে</string>
+    <string name="unable">তথ্য পাওয়া যাচ্ছে না</string>
+    <string name="select_date_dd_mm_yyyy">উপস্থিতির তারিখ সিলেক্ট করুন: (দিন/মাস/বছর)</string>
+    <string name="select_a_class">ক্লাস সিলেক্ট করুন</string>
+
+
+    <string name="roll_no">রোল নাম্বার:</string>
+    <string name="save">সেভ</string>
+    <string name="member">অভিভাবক</string>
+
+    <string name="select_an_exam"> পরীক্ষার ধরন সিলেক্ট করুন </string>
+
+    <string name="no_data_found">দুঃখিত ! কোন তথ্য পাওয়া যায় নি !</string>
+
+    <string name="are_you_sure">আপনি কি নিশ্চিত ?</string>
+    <string name="yes"> হ্যা</string>
+
+    <string name="no_"> না</string>
+    <string name="are_you_ready_update"> আপনি কি মার্ক্স দেওয়ার জন্য প্রস্তুত ?</string>
+
+    <string name="title_description"> আপনাকে অবশ্যই নোটিশের টাইটেল এবং বিস্তারিত লিখতে হবে...</string>
+
+    <string name="guardian">অভিভাবক:</string>
+    <string name="email">ইমেইল:</string>
+    <string name="relation">সম্পর্ক:</string>
+    <string name="phone">ফোন:</string>
+
+
+    <string name="title">শিরোনাম:</string>
+    <string name="details"> বিস্তারিত:</string>
+    <string name="posted_by"> পোস্ট দাতা:</string>
+    <string name="posted_on"> পোস্টের তারিখ:</string>
+    <string name="posted_for">পোস্টের মেয়াদঃ</string>
+    <string name="subject"> বিষয়:</string>
+
+    <string name="post_a_notice_to_inform_members"> ছাত্রদের জন্য নোটিশ দিন</string>
+    <string name="post_notice"> নোটিশ দিন</string>
+    <string name="posted_for_date_please_select_date"> নোটিশটি কোন দিনের জন্যঃ তারিখ সিলেক্ট করুন</string>
+
+    <string name="academic_calander">একাডেমিক ক্যালেন্ডার</string>
+    <string name="syllabus">সিলেবাস</string>
+
+    <string name="fill_all">অনুগ্রহ করে প্রতিটি ছাত্রের মার্কস প্রদান করুন</string>
+    <string name="guardian_list">অভিভাবকের তালিকা</string>
+    <string name="exam"> পরীক্ষা</string>
+    <string name="chat">কথোপকথন</string>
+    <string name="error_message">সঠিক ইউজার আইডি ও পাসওয়ার্ড দিন</string>
+    <string name="notice_title">নোটিশের শিরোনাম</string>
+    <string name="description">বিস্তারিত</string>
+    <string name="sorry_no_data_found">দুঃখিতঃ কোন তথ্য পাওয়া যায় নি</string>
+    <string name="obtain_marks_message">প্রাপ্ত মার্ক মোট মার্কের চেয়ে বেশি হতে পারবে না</string>
+    <string name="marks">মার্ক</string>
+    <string name="no_subject">কোন বিষয় বরাদ্দ নেই !</string>
+    <string name="no_subject_assign">বিষয় বরাদ্দের জন্য অ্যাডমিনের সাথে যোগাযোগ করুন</string>
+    <string name="Okey">পুনরায় চেষ্টা করুন</string>
+
+    <string name="google_api_id">91e3b1467fe4a30ad2591f7d6f5d22123a732d13</string>
+
+
+</resources>

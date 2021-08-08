@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Modern Teacher</string>
+    <string name="application_title">Modern Teacher</string>
+
+    <string name="title_activity_main">Modern Teacher</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Modern pre-cadet school</string>
+    <string name="nav_header_subtitle">example@Modern.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Change Language</string>
+    <string name="logout_text">Log out</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--User_Info-->
+    <string name="attendance_text">Attendance</string>
+    <string name="create_new_post">Post Notice</string>
+    <string name="members_text">Guardian</string>
+    <string name="all_notice_text">Notices</string>
+    <string name="statistics_text">Statistics</string>
+    <string name="exams_text">Exams</string>
+    <string name="footer_text">Automated Monitoring System </string>
+    <string name="signIn">Sign In</string>
+    <string name="userIdHint">User ID</string>
+    <string name="PasswordHint">Password</string>
+    <string name="LoginText">Login</string>
+    <string name="changeLanguage">Change Language</string>
+    <string name="home">Home</string>
+    <string name="total_marks">Total Marks</string>
+    <string name="submit">Submit</string>
+    <string name="name">Name:</string>
+    <string name="roll">Roll:</string>
+    <string name="obtained_marks">Obtained Marks</string>
+    <string name="view_exam_marks">View Exam Marks</string>
+    <string name="edit_exam_marks">Add Exam Marks</string>
+    <string name="exam_date_mm_dd_yyyy">Exam Date: (mm/dd/yyyy)</string>
+    <string name="successfully_updated">Successfully updated !!</string>
+    <string name="attendance">Attendance</string>
+    <string name="yyy">yyyy/MM/dd</string>
+    <string name="_class"> Class:</string>
+    <string name="_sec"> Sec:</string>
+    <string name="_shift"> Shift:</string>
+    <string name="you_can_not">You can not change attendance more than 2 days past.</string>
+    <string name="attendance_date">Attendance Date</string>
+    <string name="loading">Loading</string>
+    <string name="please_wait">Please wait while loading...</string>
+    <string name="something_went">Something went wrong.. Message not sent..</string>
+    <string name="no_internet">No internet connection.</string>
+
+    <string name="please_enter_uid">Please enter your user id!</string>
+    <string name="please_enter_pass">Please enter your password!</string>
+    <string name="successfully_updated_att">Successfully updated attendance</string>
+    <string name="no_list">No list found</string>
+    <string name="please_input">Please input the total marks before submitting !!</string>
+    <string name="notices_">Notices</string>
+    <string name="notice_details">Notice Details</string>
+    <string name="create_notice">Post Notice</string>
+    <string name="please_notice">Please select a date the notice posted for..</string>
+    <string name="succ_post">Successfully posted</string>
+    <string name="unable">Unable to fetch data</string>
+    <string name="select_date_dd_mm_yyyy">Select attendance Date: (dd/mm/yyyy)</string>
+    <string name="select_a_class">Select a class</string>
+    -
+    <string name="roll_no">Roll No:</string>
+    <string name="save">Save</string>
+    <string name="member">Guardian</string>
+    <string name="select_an_exam">Select an exam</string>
+    <string name="no_data_found">Sorry !! No data found !</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="yes">Yes</string>
+
+    <string name="no_">No</string>
+    <string name="are_you_ready_update">Are you ready to add exam marks ?</string>
+    <string name="title_description">Title or description can not be empty..</string>
+
+    <string name="guardian">Guardian:</string>
+    <string name="email">Email:</string>
+    <string name="relation">Relation:</string>
+    <string name="phone">Phone:</string>
+
+
+    <string name="title">Title:</string>
+    <string name="details">Details:</string>
+    <string name="posted_by">Posted By:</string>
+    <string name="posted_on">Posted On:</string>
+    <string name="posted_for">Posted for:</string>
+    <string name="subject">Subject:</string>
+    <string name="post_a_notice_to_inform_members">Post a notice for students.</string>
+    <string name="post_notice">Post Notice</string>
+    <string name="posted_for_date_please_select_date">Select post validity date</string>
+
+    <string name="academic_calander">Academic Calendar</string>
+    <string name="syllabus">Syllabus</string>
+    <string name="fill_all">Please fill all the field...</string>
+    <string name="guardian_list">Guardian List</string>
+
+    <string name="exam"> Exam</string>
+    <string name="chat">Chat</string>
+    <color name="login_bgd_color">#f0fff0</color>
+    <string name="error_message">Enter valid User Id or password</string>
+
+    <string name="sorry_no_data_found">Sorry ! No data found</string>
+    <string name="notice_title">Notice title</string>
+    <string name="description">Description</string>
+    <string name="obtain_marks_message">Obtain marks should be less than total marks</string>
+    <string name="marks">Marks</string>
+    <string name="no_subject">No Subject Assign !</string>
+    <string name="no_subject_assign">Please contact with admin for assign subject</string>
+    <string name="Okey">Retry</string>
+
+
+
+    <string name="google_api_id">91e3b1467fe4a30ad2591f7d6f5d22123a732d13</string>
+
+
+</resources>

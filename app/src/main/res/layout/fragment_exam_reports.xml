@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.ExamReportsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:background="@drawable/shadow"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_margin="5dip"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            app:srcCompat="@drawable/ic_male"/>
+        <TextView
+            android:id="@+id/student_name_tv"
+            android:layout_margin="5dip"
+            android:text="Name"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="18dip"/>
+    </LinearLayout>
+    <ListView
+        android:stackFromBottom="true"
+        android:layout_margin="2dip"
+        android:id="@+id/exam_reports_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:listSelector="@drawable/list_row_selector" />
+
+</LinearLayout>

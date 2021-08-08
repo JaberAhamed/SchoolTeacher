@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/shadow"
+    tools:context=".fragments.LoginFragment">
+
+    <LinearLayout
+        android:layout_margin="8dip"
+        android:padding="8dip"
+        android:background="@color/login_bgd_color"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <!-- TODO: Update blank fragment layout -->
+        <ImageView
+            android:id="@+id/splashImage"
+            android:layout_marginTop="5dp"
+            android:layout_width="200dp"
+            android:layout_height="200dip"
+            android:layout_gravity="center"
+            android:background="@drawable/logo_demo" />
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:text="@string/application_title"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorEnabled="true"
+            app:counterEnabled="true"
+            app:counterMaxLength="11">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="@string/userIdHint"
+                android:inputType="number"
+                android:textSize="14sp"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            app:errorEnabled="true"
+            app:counterEnabled="true"
+            app:counterMaxLength="15">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="@string/PasswordHint"
+                android:inputType="textPassword"
+                android:textSize="14sp"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_gravity="center"
+            android:text="@string/LoginText"
+            android:textColor="#ffffff"
+            android:backgroundTint="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
+            android:layout_margin="10dip"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/changeLanguage"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dip"
+            android:background="@color/login_bgd_color"
+            android:backgroundTint="@color/login_bgd_color"
+            android:text="@string/changeLanguage"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+
+</LinearLayout>

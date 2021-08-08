@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/nav_attandance"
+            android:icon="@drawable/ic_attendence_icon"
+            android:title="@string/attendance_text" />
+
+
+        <item
+            android:id="@+id/nav_exams"
+            android:icon="@drawable/ic_my_post_list"
+            android:title="@string/exams_text" />
+
+        <item
+            android:id="@+id/nav_members"
+            android:icon="@drawable/ic_members"
+            android:title="@string/guardian_list" />
+        <item
+            android:id="@+id/nav_post_notice"
+            android:icon="@drawable/ic_my_post_list"
+            android:title="@string/create_new_post" />
+        <item
+            android:id="@+id/nav_all_notice"
+            android:icon="@drawable/ic_notices"
+            android:title="@string/all_notice_text" />
+
+        <item
+            android:id="@+id/nav_statistics"
+            android:icon="@drawable/ic_statistics"
+            android:title="@string/statistics_text"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_calender"
+            android:icon="@drawable/ic_calenders"
+            android:title="@string/academic_calander"
+            android:visible="false"/>
+    </group>
+
+    <item android:title="Actions">
+        <menu>
+
+
+            <item
+                android:id="@+id/nav_change_language"
+                android:icon="@drawable/ic_language_black_24dp"
+                android:title="@string/changeLanguage" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_power_settings_new_black_24dp"
+                android:title="@string/logout_text" />
+
+        </menu>
+    </item>
+
+</menu>
